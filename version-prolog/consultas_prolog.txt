@@ -1,0 +1,7 @@
+enfermedades(covid).
+enfermedades(estres).
+sintomas(tos,asma).
+sintomas(X,asma), write(X), nl, fail.
+contagioso(X), write(X), nl, fail.
+no_es_contagioso(X), write(X), nl, fail.
+tipos_de_enfermedades(X), write(X), nl, fail.
